@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import { dayServices } from '../services/dayServices'
+import { dayServices } from '../../services/dayServices'
 export default {
   data () {
     return {

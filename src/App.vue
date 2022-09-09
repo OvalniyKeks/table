@@ -10,7 +10,7 @@
 
 <script>
 import EmptyRow from './components/EmptyRow.vue';
-import TableCustom from './components/TableCustom.vue';
+import TableCustom from './components/managers/TableCustom.vue';
 import TableWrapper from './components/TableWrapper.vue';
 
 export default {
