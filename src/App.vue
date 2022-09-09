@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <table-wrapper>
+      <table-custom />
+      <empty-row />
+      <table-custom />
+    </table-wrapper>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EmptyRow from './components/EmptyRow.vue';
+import TableCustom from './components/TableCustom.vue';
+import TableWrapper from './components/TableWrapper.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: "App",
+  components: { TableWrapper, TableCustom, EmptyRow }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+#app
+  color: black
+  font-family: 'Open sans'
 </style>
