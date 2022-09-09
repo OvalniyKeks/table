@@ -74,7 +74,7 @@ export default {
     }
   },
   created () {
-    const startNameDay = 'Cб'
+    const startNameDay = 'Ср'
     const start = new Date("2022-06-01")
     const end = new Date("2022-12-31")
 
